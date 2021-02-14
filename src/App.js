@@ -6,6 +6,7 @@ import Project from "./components/section/Project";
 import Skill from "./components/section/Skill";
 import Testimonial from "./components/section/Testimonial";
 import Contact from "./components/section/Contact";
+import AppFooter from "./components/AppFooter";
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
         <Testimonial />
         <Contact />
       </main>
+      <AppFooter />
     </>
   );
 }
