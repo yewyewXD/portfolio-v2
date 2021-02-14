@@ -1,0 +1,188 @@
+#hero {
+  min-height: 100vh;
+  background: linear-gradient(0deg, $darkThemeColor, $darkThemeColor),
+    url("../../images/heroBg.webp") center;
+  background-size: cover;
+
+  .caption-subtitle {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+  }
+
+  .cta {
+    &:hover .cta-animation-dot {
+      &:nth-child(1) {
+        width: 100%;
+        transform: translateX(100%);
+      }
+      &:nth-child(2) {
+        height: 100%;
+        transform: translateY(100%);
+      }
+      &:nth-child(3) {
+        width: 100%;
+        transform: translateX(-100%);
+      }
+      &:nth-child(4) {
+        height: 100%;
+        transform: translateY(-100%);
+      }
+    }
+  }
+
+  .cta-animation-dot {
+    transition: 0.3s;
+    &:nth-child(1) {
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 1px;
+    }
+    &:nth-child(2) {
+      top: 0;
+      left: 0;
+      width: 1px;
+      height: 0;
+    }
+    &:nth-child(3) {
+      bottom: 0;
+      right: 0;
+      width: 0;
+      height: 1px;
+    }
+    &:nth-child(4) {
+      bottom: 0;
+      right: 0;
+      width: 1px;
+      height: 0;
+    }
+  }
+
+  .social-links {
+    right: 0;
+    bottom: 0;
+    margin: 0 20px 20px 0;
+  }
+  .social-icon {
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+    transition: 0.2s;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+#project {
+  .project-image {
+    box-shadow: lightgrey 0 10px 20px;
+  }
+
+  .skill-icon {
+    font-size: 2.1rem;
+    &.react {
+      color: #61dafb;
+    }
+    &.bootstrap {
+      color: #7952b3;
+    }
+    &.sass {
+      color: #cf649a;
+    }
+    &.node {
+      color: #689f63;
+    }
+    &.mongodb {
+      color: #12924f;
+    }
+    &.html {
+      color: #e44d26;
+    }
+    &.js {
+      background: black;
+      color: #efd81d;
+    }
+  }
+}
+
+#testimonial {
+  .slick-slider,
+  .slick-track {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonial {
+    width: 650px !important;
+  }
+  .quote-icon {
+    font-size: 4rem;
+    margin-top: -50px;
+    margin-left: -40px;
+  }
+
+  .post-link {
+    color: $themeColor;
+  }
+
+  * {
+    outline: none;
+  }
+}
+
+#contact {
+  form {
+    width: 80%;
+  }
+  .form-group {
+    margin: 32px 0;
+  }
+  .contact-btn:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #testimonial {
+    .testimonial {
+      width: 450px !important;
+    }
+  }
+
+  #contact {
+    form {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  #hero {
+    .cta {
+      width: 90%;
+    }
+    .caption-subtitle {
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+    }
+  }
+
+  #project {
+    .skill-icon {
+      font-size: 2rem;
+    }
+  }
+
+  #testimonial {
+    .testimonial {
+      width: 90% !important;
+    }
+    .quote-icon {
+      font-size: 3rem;
+      margin-top: -40px;
+      margin-left: -25px;
+    }
+  }
+}

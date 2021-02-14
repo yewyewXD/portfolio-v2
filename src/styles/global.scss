@@ -1,0 +1,38 @@
+@import "./01-variables";
+@import "./02-rewrites";
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: black;
+}
+
+.light-nav {
+  transition: 0.3s;
+  background: none !important;
+}
+.dark-nav {
+  transition: 0.3s;
+  background: $lightThemeColor !important;
+}
+
+#appFooter {
+  background: $themeColor;
+  .copyright {
+    font-size: 0.9rem;
+  }
+  .social-icon {
+    transition: 0.2s;
+    font-size: 1.3rem;
+    height: 2.3rem;
+    width: 2.3rem;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+@import "./pages/Landing";
