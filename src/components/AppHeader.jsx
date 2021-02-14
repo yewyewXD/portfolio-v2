@@ -28,8 +28,8 @@ export default function AppHeader() {
   }, [navBg]);
 
   return (
-    <header id="#appHeader">
-      <nav className={`navbar navbar-expand-lg fixed-top p-0 ${navBg}`}>
+    <header id="#appHeader" className="fixed-top" style={{ width: "100vw" }}>
+      <nav className={`navbar navbar-expand-lg p-0 ${navBg}`}>
         <div className="container">
           <a className="navbar-brand text-white" href="#hero">
             Yew Kang Wei
@@ -62,6 +62,7 @@ export default function AppHeader() {
               className={`small-nav position-fixed overflow-hidden ${
                 navOpen ? "nav-open" : ""
               }`}
+              style={{ width: "100vw" }}
             >
               <Scrollspy
                 items={["hero", "project", "skill", "testimonial", "contact"]}
