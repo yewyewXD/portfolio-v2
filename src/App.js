@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 
 import Project from "./components/section/Project";
 import Skill from "./components/section/Skill";
+import Testimonial from "./components/section/Testimonial";
 
 function App() {
   useEffect(() => {
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Project />
         <Skill />
+        <Testimonial />
       </main>
     </>
   );
