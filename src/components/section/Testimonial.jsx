@@ -24,10 +24,11 @@ export default function Testimonial() {
     speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
   };
 
   return (
-    <section id="testimonial" className="text-center  py-5">
+    <section id="testimonial" className="text-center py-5 position-relative">
       <div className="container my-sm-5 my-3">
         <h1 className="mb-0">Testimonial</h1>
         <Slider {...sliderSettings}>

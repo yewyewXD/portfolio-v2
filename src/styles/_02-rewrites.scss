@@ -24,6 +24,14 @@ p {
   font-size: 1.1rem;
 }
 
+.container {
+  overflow: hidden !important;
+
+  #testimonial & {
+    overflow: initial !important;
+  }
+}
+
 .all-center,
 .all-center-column {
   display: flex !important;
