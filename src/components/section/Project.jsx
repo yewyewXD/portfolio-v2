@@ -22,42 +22,42 @@ export default function Project() {
           </h1>
 
           <div
-            className="row project-row text-lg-left text-center my-lg-5 py-5"
+            className="row project-row text-lg-left text-center my-lg-5 pt-5"
             data-aos="fade-left"
           >
             <div className="col-lg-6">
               <img
-                src={projectImg1}
-                alt="My Project TrackerBase"
+                src={projectImg3}
+                alt="My Project Agape Cafe"
                 className="w-100 project-image"
               />
             </div>
             <div className="col-lg-6 all-center-column align-items-lg-start mt-lg-0 mt-4">
-              <h2 className="mb-sm-4 mb-3 project-title">TrackerBase</h2>
+              <h2 className="mb-sm-4 mb-3 project-title">Agape Cafe</h2>
               <p className="mb-3">
-                TrackerBase helps users track any Amazon product price. User can
-                see all their "bookmarked" products in one place. With its
-                price-compare automation, user will know when to place an order.
+                A static website made for a restaurant owner to help promote his
+                business.
               </p>
               <div className="skill-used all-center">
-                <FaReact className="skill-icon mr-2 react" />
+                <FaHtml5 className="skill-icon mr-2 html" />
                 <FaBootstrap className="skill-icon mr-2 bootstrap" />
                 <FaSass className="skill-icon mr-2 sass" />
-                <FaNodeJs className="skill-icon mr-2 node" />
-                <SiMongodb className="skill-icon mr-2 mongodb" />
+                <SiJavascript className="skill-icon mr-2 js" />
               </div>
+
               <div className="buttons mt-4 all-center">
                 <a
                   className="btn btn-primary btn-md mt-2 mr-3"
-                  href="https://trackerbase.herokuapp.com/"
+                  href="https://www.agapefoodjunction.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   View Live
                 </a>
+
                 <a
                   className="btn btn-outline-secondary btn-md mt-2"
-                  href="https://github.com/yewyewXD/React-Amazon-Price-Tracker"
+                  href="https://github.com/yewyewXD/Agape-Cafe"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -112,42 +112,42 @@ export default function Project() {
           </div>
 
           <div
-            className="row project-row text-lg-left text-center my-lg-5 pt-5"
+            className="row project-row text-lg-left text-center my-lg-5 py-5"
             data-aos="fade-left"
           >
             <div className="col-lg-6">
               <img
-                src={projectImg3}
-                alt="My Project Agape Cafe"
+                src={projectImg1}
+                alt="My Project TrackerBase"
                 className="w-100 project-image"
               />
             </div>
             <div className="col-lg-6 all-center-column align-items-lg-start mt-lg-0 mt-4">
-              <h2 className="mb-sm-4 mb-3 project-title">Agape Cafe</h2>
+              <h2 className="mb-sm-4 mb-3 project-title">TrackerBase</h2>
               <p className="mb-3">
-                A static website made for a restaurant owner to help promote his
-                business.
+                TrackerBase helps users track any Amazon product price. User can
+                see all their "bookmarked" products in one place. With its
+                price-compare automation, user will know when to place an order.
               </p>
               <div className="skill-used all-center">
-                <FaHtml5 className="skill-icon mr-2 html" />
+                <FaReact className="skill-icon mr-2 react" />
                 <FaBootstrap className="skill-icon mr-2 bootstrap" />
                 <FaSass className="skill-icon mr-2 sass" />
-                <SiJavascript className="skill-icon mr-2 js" />
+                <FaNodeJs className="skill-icon mr-2 node" />
+                <SiMongodb className="skill-icon mr-2 mongodb" />
               </div>
-
               <div className="buttons mt-4 all-center">
                 <a
                   className="btn btn-primary btn-md mt-2 mr-3"
-                  href="https://www.agapefoodjunction.com/"
+                  href="https://trackerbase.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   View Live
                 </a>
-
                 <a
                   className="btn btn-outline-secondary btn-md mt-2"
-                  href="https://github.com/yewyewXD/Agape-Cafe"
+                  href="https://github.com/yewyewXD/React-Amazon-Price-Tracker"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
