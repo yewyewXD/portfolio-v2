@@ -81,6 +81,9 @@
 
   .skill-icon {
     font-size: 2.1rem;
+    &.stripe {
+      color: #646ede;
+    }
     &.gatsby {
       color: #8a4baf;
     }

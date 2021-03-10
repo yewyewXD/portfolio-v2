@@ -11,6 +11,7 @@ import {
   FaNodeJs,
 } from "react-icons/fa";
 import {SiGatsby} from 'react-icons/si'
+import {GrStripe} from 'react-icons/gr'
 import { SiMongodb, SiJavascript } from "react-icons/si";
 
 export default function Project() {
@@ -44,6 +45,7 @@ export default function Project() {
                 <FaBootstrap className="skill-icon mr-2 bootstrap" />
                 <FaSass className="skill-icon mr-2 sass" />
                 <FaNodeJs className="skill-icon mr-2 node" />
+                <GrStripe className='skill-icon mr-2 stripe' />
               </div>
               <div className="buttons mt-4 all-center">
                 <a
