@@ -52,7 +52,7 @@ export default function Project() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View Live
+                  View Demo
                 </a>
                 <button
                   className="btn btn-outline-secondary btn-md mt-2"

@@ -57,6 +57,14 @@ input {
   }
 }
 
+button {
+  &:disabled {
+    cursor: not-allowed;
+  }
+  &:hover {
+    transform: scale(1) !important;
+  }
+}
 .btn {
   transition: 0.2s;
   box-shadow: none !important;
