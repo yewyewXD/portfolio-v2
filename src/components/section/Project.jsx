@@ -10,8 +10,8 @@ import {
   FaHtml5,
   FaNodeJs,
 } from "react-icons/fa";
-import {SiGatsby,SiNetlify,SiJavascript} from 'react-icons/si'
-import {GrStripe} from 'react-icons/gr'
+import { SiGatsby, SiNetlify, SiJavascript } from "react-icons/si";
+import { GrStripe } from "react-icons/gr";
 
 export default function Project() {
   return (
@@ -36,16 +36,18 @@ export default function Project() {
             <div className="col-lg-6 all-center-column align-items-lg-start mt-lg-0 mt-4">
               <h2 className="mb-sm-4 mb-3 project-title">Catto Joy</h2>
               <p className="mb-3">
-                This is an e-commerce website with a focus around cats. Credit card details for testing purpose is attached
-                to the checkout form. User will also receive a cute auto-reply after submitting the contact form. Try it out!
+                This is an e-commerce website with a focus around cats. Credit
+                card details for testing purpose is attached to the checkout
+                form. User will also receive a cute auto-reply after submitting
+                the contact form. Try it out!
               </p>
               <div className="skill-used all-center">
                 <SiGatsby className="skill-icon mr-2 gatsby" />
                 <FaBootstrap className="skill-icon mr-2 bootstrap" />
                 <FaSass className="skill-icon mr-2 sass" />
                 <FaNodeJs className="skill-icon mr-2 node" />
-                <GrStripe className='skill-icon mr-2 stripe' />
-                <SiNetlify className='skill-icon mr-2 netlify' />
+                <GrStripe className="skill-icon mr-2 stripe" />
+                <SiNetlify className="skill-icon mr-2 netlify" />
               </div>
               <div className="buttons mt-4 all-center">
                 <a
@@ -65,7 +67,7 @@ export default function Project() {
               </div>
             </div>
           </div>
-   
+
           <div
             className="row project-row text-lg-left text-center my-lg-5 py-5 flex-lg-row flex-column-reverse"
             data-aos="fade-right"
