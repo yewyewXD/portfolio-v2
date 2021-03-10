@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import {SiGatsby} from 'react-icons/si'
 import {GrStripe} from 'react-icons/gr'
-import { SiMongodb, SiJavascript } from "react-icons/si";
+import {  SiJavascript } from "react-icons/si";
 
 export default function Project() {
   return (
