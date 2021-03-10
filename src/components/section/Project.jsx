@@ -10,9 +10,8 @@ import {
   FaHtml5,
   FaNodeJs,
 } from "react-icons/fa";
-import {SiGatsby} from 'react-icons/si'
+import {SiGatsby,SiNetlify,SiJavascript} from 'react-icons/si'
 import {GrStripe} from 'react-icons/gr'
-import {  SiJavascript } from "react-icons/si";
 
 export default function Project() {
   return (
@@ -46,6 +45,7 @@ export default function Project() {
                 <FaSass className="skill-icon mr-2 sass" />
                 <FaNodeJs className="skill-icon mr-2 node" />
                 <GrStripe className='skill-icon mr-2 stripe' />
+                <SiNetlify className='skill-icon mr-2 netlify' />
               </div>
               <div className="buttons mt-4 all-center">
                 <a
