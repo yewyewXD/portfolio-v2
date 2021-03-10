@@ -1,5 +1,5 @@
 import React from "react";
-import projectImg1 from "../../images/projectCattoJoy.jpg";
+import projectImg1 from "../../images/projectCattoJoy.webp";
 import projectImg2 from "../../images/projectRtWeather.webp";
 import projectImg3 from "../../images/projectAgapeCafe.webp";
 
