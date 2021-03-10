@@ -13,6 +13,7 @@ export default function Skill() {
     "JavaScript",
     "ReactJS",
     "NextJS",
+    "GatsbyJS",
   ];
   const backendSkillItems = ["NodeJS", "ExpressJS", "MongoDB", "Stripe"];
   const devToolSkillItems = ["Chrome DevTools", "Postman", "Git Bash"];
