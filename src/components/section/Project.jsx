@@ -37,7 +37,7 @@ export default function Project() {
               <h2 className="mb-sm-4 mb-3 project-title">Catto Joy</h2>
               <p className="mb-3">
                 This is an e-commerce website with a focus around cats. Credit
-                card details for testing purpose is attached to the checkout
+                card details for testing purpose are attached to the checkout
                 form. User will also receive a cute auto-reply after submitting
                 the contact form. Try it out!
               </p>
