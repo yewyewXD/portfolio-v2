@@ -10,6 +10,7 @@ import {
   FaHtml5,
   FaNodeJs,
 } from "react-icons/fa";
+import {SiGatsby} from 'react-icons/si'
 import { SiMongodb, SiJavascript } from "react-icons/si";
 
 export default function Project() {
@@ -39,11 +40,10 @@ export default function Project() {
                 to the checkout form. User will also receive a cute auto-reply after submitting the contact form. Try it out!
               </p>
               <div className="skill-used all-center">
-                <FaReact className="skill-icon mr-2 react" />
+                <SiGatsby className="skill-icon mr-2 gatsby" />
                 <FaBootstrap className="skill-icon mr-2 bootstrap" />
                 <FaSass className="skill-icon mr-2 sass" />
                 <FaNodeJs className="skill-icon mr-2 node" />
-                <SiMongodb className="skill-icon mr-2 mongodb" />
               </div>
               <div className="buttons mt-4 all-center">
                 <a

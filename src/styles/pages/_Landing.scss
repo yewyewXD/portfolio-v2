@@ -81,6 +81,9 @@
 
   .skill-icon {
     font-size: 2.1rem;
+    &.gatsby {
+      color: #8a4baf;
+    }
     &.react {
       color: #61dafb;
     }
@@ -92,9 +95,6 @@
     }
     &.node {
       color: #689f63;
-    }
-    &.mongodb {
-      color: #12924f;
     }
     &.html {
       color: #e44d26;
