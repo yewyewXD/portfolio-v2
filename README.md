@@ -10,7 +10,7 @@ This portfolio website showcases my projects, skills, and testimonials.
 
 Started on: 6 Oct 2020 <br>
 Completed on: 7 Oct 2020 <br>
-Last modified on: 10 Mar 2021 <br>
+Last modified on: 14 Mar 2021 <br>
 
 ## Screenshots
 
