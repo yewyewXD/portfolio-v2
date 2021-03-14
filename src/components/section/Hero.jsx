@@ -11,8 +11,8 @@ export default function Hero() {
             <div className="col-md-8 text-sm-left text-center">
               <h1 className="caption-title text-white mb-3">Web Developer</h1>
               <p className="caption-subtitle mb-4">
-                I'm a fullstack developer focusing on the frontend. I also have
-                a passion for digital marketing.
+                I'm a fullstack React developer. I work at least 90 hours a
+                week, and I'm willing to learn anything!
               </p>
               <a
                 className="btn btn-primary btn-lg cta overflow-hidden position-relative"
