@@ -1,5 +1,5 @@
 import React from "react";
-import { BiCodeAlt } from "react-icons/bi";
+import { BiCodeAlt, BiBookHeart } from "react-icons/bi";
 import { CgDatabase } from "react-icons/cg";
 import { VscTools } from "react-icons/vsc";
 import { GrUserSettings } from "react-icons/gr";
@@ -30,6 +30,11 @@ export default function Skill() {
     "Attentive",
     "Empathetic",
     "Optimistic",
+  ];
+  const interestsSkillItems = [
+    "Blockchain",
+    "Digital Marketing",
+    "Mobile App Dev",
   ];
 
   return (
@@ -85,6 +90,19 @@ export default function Skill() {
           </h2>
           <div className="skill-items justify-content-sm-start justify-content-center d-flex flex-wrap text-center">
             {personalitySkillItems.map((skillItem) => (
+              <span className="skill-item mr-sm-3 mx-sm-0 mx-2" key={skillItem}>
+                {skillItem}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div className="skill mb-4" data-aos="fade-up">
+          <h2 className="all-center justify-content-sm-start">
+            <BiBookHeart className="mr-2" /> Other Interests
+          </h2>
+          <div className="skill-items justify-content-sm-start justify-content-center d-flex flex-wrap text-center">
+            {interestsSkillItems.map((skillItem) => (
               <span className="skill-item mr-sm-3 mx-sm-0 mx-2" key={skillItem}>
                 {skillItem}
               </span>
