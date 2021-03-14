@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, Fragment } from "react";
 import projectImg1 from "../../images/projectCattoJoy.webp";
 import projectImg2 from "../../images/projectRtWeather.webp";
 import projectImg3 from "../../images/projectAgapeCafe.webp";
@@ -98,7 +98,11 @@ export default function Project() {
                 <h2 className="mb-sm-4 mb-3 project-title">{project.title}</h2>
                 <p className="mb-3">{project.description}</p>
                 <div className="skill-used all-center">
-                  {project.icons.map((icon) => icon)}
+                  {project.icons.map((icon, index) => (
+                    <Fragment key={`${project.id}_icon-${index}`}>
+                      {icon}
+                    </Fragment>
+                  ))}
                 </div>
                 <div className="buttons mt-4 all-center">
                   <a
