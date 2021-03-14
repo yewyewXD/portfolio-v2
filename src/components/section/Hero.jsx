@@ -9,10 +9,10 @@ export default function Hero() {
         <div className="caption text-white" data-aos="fade-up">
           <div className="row">
             <div className="col-md-8 text-sm-left text-center">
-              <h1 className="caption-title text-white mb-3">Web Developer</h1>
+              <h1 className="caption-title text-white mb-3">React Developer</h1>
               <p className="caption-subtitle mb-4">
-                I'm a fullstack React developer. I work at least 90 hours a
-                week, and I'm willing to learn anything!
+                I work at least 90 hours a week, and I'm willing to learn
+                anything! I'm also very interested in blockchain and fullstack.
               </p>
               <a
                 className="btn btn-primary btn-lg cta overflow-hidden position-relative"
