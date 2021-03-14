@@ -13,13 +13,21 @@ export default function Skill() {
     "JavaScript",
     "ReactJS",
     "NextJS",
+    "GatsbyJS",
   ];
-  const backendSkillItems = ["NodeJS", "ExpressJS", "MongoDB", "Stripe"];
-  const devToolSkillItems = ["Chrome DevTools", "Postman", "Git Bash"];
+  const backendSkillItems = ["NodeJS", "ExpressJS", "MongoDB"];
+  const devToolSkillItems = [
+    "Git",
+    "Postman",
+    "Jira",
+    "Stripe",
+    "Contentful",
+    "Netlify",
+  ];
   const personalitySkillItems = [
-    "Hardworking",
-    "Loyal",
+    "Super-Hardworking",
     "Patient",
+    "Attentive",
     "Empathetic",
     "Optimistic",
   ];
